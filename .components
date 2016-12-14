@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: none
+:mock: none
+:script: none
+:renderer: slim
+:stylesheet: sass
+:namespace: Sample2
+:migration_format: number
