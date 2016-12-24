@@ -9,6 +9,9 @@ module Sample2
       "hello"
     end
 
+    def test_task
+      puts 'Hi!'
+    end
     ##
     # Caching support.
     #
