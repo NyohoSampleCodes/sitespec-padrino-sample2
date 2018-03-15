@@ -36,3 +36,5 @@ gem 'padrino', '0.13.3.2'
 gem 'sitespec'
 gem 'pry'
 gem 'pry-byebug'
+gem 'pry-doc'
+gem "rack-livereload"
