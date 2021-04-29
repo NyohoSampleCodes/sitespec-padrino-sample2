@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: activesupport
+    versions:
+    - 6.0.3.4
+    - 6.0.3.5
+  - dependency-name: pry
+    versions:
+    - 0.13.1
+    - 0.14.0
+  - dependency-name: ffi
+    versions:
+    - 1.14.2
+  - dependency-name: padrino
+    versions:
+    - 0.15.0
